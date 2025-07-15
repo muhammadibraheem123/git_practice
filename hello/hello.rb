@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hello.rb
 
 class Greeter
@@ -16,3 +17,9 @@ puts greeter.greet
 
 num = 2 * 3
 puts num
+=======
+puts "What's your name?"
+my_name = gets.strip
+
+puts "Hello, #{my_name}!"
+>>>>>>> b338599 (WIP: temporary changes before switching branch)
