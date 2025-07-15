@@ -1,0 +1,7 @@
+# Rakefile
+
+task :default => :run
+
+task :run do
+  ruby '-Ihello', 'hello/hello.rb'
+end
